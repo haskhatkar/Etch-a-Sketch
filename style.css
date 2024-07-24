@@ -1,0 +1,40 @@
+.btnInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 33px;
+    gap: 25px;
+}
+
+#sizeBtn {
+    font-size: 20px;
+    border-radius: 2px;
+    padding: 5px 5px;
+}
+
+#resetBtn {
+    font-size: 20px;
+    border-radius: 2px;
+    padding: 5px 5px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    box-sizing: border-box;
+}
+
+.gridSquare {
+    border: 2px solid rgb(0, 0, 0);
+    aspect-ratio: 1/1;
+    flex: 1 1 60px;
+    box-sizing: border-box;
+}
